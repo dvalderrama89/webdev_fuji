@@ -7,7 +7,7 @@ The goal of this redesign was to implement several performance enhancing techniq
 * Compress .png assets while maintaining image properties(namely the alpha property), using TinyPNG
 
 #Results
-First I want to address that a few additional performance improvements were not used to maintain code readability - minification and obfuscation. Additionally, the tests were performed on Chrome using the Chrome Developer Tools with the cache disabled. The results are an average of a set of 10 page refreshes both on the original site and my own. Note that although some assets were removed from the original in constructing the redesign, I believe that the impact on the final numbers is not particularly significant.
+First I want to address that a few additional performance improvements were not used in order to maintain code readability, these were: minification and obfuscation. Additionally, the tests were performed on Chrome using the Chrome Developer Tools with the cache disabled. The results are an average of a set of 10 page refreshes both on the original site and my own. Note that although some assets were removed from the original in constructing the redesign, I believe that the impact on the final numbers is not particularly significant.
 
 #original oh-fuji.com/en/:
 *62 GET requests, 8.1 MB transferred*
