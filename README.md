@@ -42,3 +42,7 @@ Average: 21.762s (load: 21.731s, DOM: 1.629s)
 
 Average: 2.758s (load: 2.76s, DOM: 976ms)
 
+#Conclusions:
+There's a huge improvement between the original and redesigned sites. First, simply using CSS sprites and a plugin gallery cut down the number of HTTP GETs by 23. It should be noted here that part of my effort to reduce the total GETs was to recode how the top menu bar was rendered to the user. The original code had the menu images replace themselves with mouse-over versions on event, however, the mouse-over images themselves were not downloaded from the server until the mouse-over actually occurre. This meant additional GETs that were very obvious to the user. I managed to remedy this in jQuery using the toggleClass function. This seemingly simple improvement alone accounted for 6 of the 23 requests. The rest were part of the sprite sheet mentioned earlier. 
+
+All assets were loaded much faster, down from 21.731 seconds to 2.76 seconds for a savings of 18.971s. On average, the DOM loaded 0.653ms faster than the original website.
