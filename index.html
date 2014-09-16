@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FUJI SCHOOL: HOME</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" id="jb-viewport" content="minimal-ui" />
+	<meta name="description" content="" />
+
+	<!-- START OPEN GRAPH TAGS-->
+	<meta property="og:title" content="Juicebox Gallery" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:description" content="" />
+	<!-- END OPEN GRAPH TAGS-->
+
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="lib/jq/jquery-ui.css"/>
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css"/>
+	
+	<script src="lib/jq/external/jquery/jquery.js"></script>
+	<script src="lib/jq/jquery-ui.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#menu").menu();
+			$("#menu2").menu();
+			$("#tabs").tabs();
+		});
+	</script>
+</head>
+<body>
+
+	<!--Outer container-->
+	<div style="width:1200px; margin:0 auto; position:relative;">
+		<img class="sprite bg" src="Transparent.gif"/>
+		<!-- Inner Container for menu stuff-->
+		<div id="container" style="position: relative; overflow: hidden; width: 1100px;">
+
+			
+			<img style="float:left;" class="sprite logo" src="Transparent.gif"/>
+
+			<div id="lang_btns" style="margin-right:22px;">
+				<a href="#"><img style="float:right;" class="sprite btn_en" src="Transparent.gif"/></a>
+				<a href="#"><img style="float:right;" class="sprite btn_jp" src="Transparent.gif"/></a>
+				<div style="clear:right; float:right;">
+					<a href="#"><img class="sprite btn_inquiry" src="Transparent.gif"/></a>
+				</div>
+			</div>
+			
+
+			<!--Main menu-->
+			<div style="width:219px; clear:left; float:left;">
+				<div style="margin-top: 5px; width:219px;"><img class="sprite side_title_01" src="Transparent.gif"/></div>
+				<ul id="menu" style="margin-bottom: 5px; width:219px; height: 190px; float:left;">
+					<li>Courses
+						<ul>
+							<li style="width:100px;"><a href="#">Beginner</a></li>
+							<li style="width:100px;"><a href="#">Intermediate</a></li>
+							<li style="width:100px;"><a href="#">Pre-Advanced</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Learning Japanese Characters</a></li>
+					<li><a href="#">Lesson Schedule</a></li>
+					<li><a hred="#">Meet the teachers</a></li>
+					<li><a hred="#">Tuition and Fees</a></li>
+					<li><a hred="#">Contact Us</a></li>
+				</ul>
+
+				<!--Second menu-->
+				<div style="clear:left; width:219px;">
+					<div style="width:219px;"><img class="sprite side_title_02" src="Transparent.gif"/></div>
+					<ul style="width:219px; height:160px; float:left;" id="menu2">
+						<li>How to enroll</li>
+						<li>Terms and Conditions</li>
+						<li>Apply for a Trial Lesson</li>
+						<li>Registration</li>
+						<li>FAQs</li>
+						<li>About Us</li>
+					</ul>
+					<div style="clear:left; float:left;">
+						<a href="#"><img class="sprite fb-icon" src="Transparent.gif"/></a>
+						<a href="#"><img class="sprite twitter-icon" src="Transparent.gif"/></a>
+						<a href="#"><img class="sprite yelp-icon" src="Transparent.gif"/></a>
+					</div>
+				</div>
+			</div>
+
+			<!--Top menu-->
+			<div style="width: 900px; white-space:nowrap;">
+				<div style="margin-left: 5px; margin-top: 96px; display:inline-block;">
+					<img id="navi1" style="float: left;" class="sprite center_navi_01" src="Transparent.gif"/>
+					<img id="navi2" style="float: left;" class="sprite center_navi_02" src="Transparent.gif"/>
+					<img id="navi3" style="float: left;" class="sprite center_navi_03" src="Transparent.gif"/>
+					<img id="navi4" style="float: left;" class="sprite center_navi_04" src="Transparent.gif"/>
+					<img id="navi5" style="float: left;" class="sprite center_navi_05" src="Transparent.gif"/>
+					<img id="navi6" style="float: left;" class="sprite center_navi_06" src="Transparent.gif"/>
+					<img style="float: left;" class="sprite header_photo" src="Transparent.gif"/>
+				</div>
+				
+			</div>	
+
+			
+
+			<!--school info-->
+			<div id="tabs" style="float: left; margin-left: 5px; width:842px; height:498px; background-color: white;">
+				<ul>
+					<li><a href="#tabs-1">Why Fuji?</a></li>
+					<li><a href="#tabs-2">Gallery</a></li>
+				</ul>
+				<div id="tabs-1" style="background-color: white;">
+					<img style="float:right;" class="sprite cut_01" src="Transparent.gif"/>
+					<p>Our curriculum allows you to check the content of your lessons before class and track your own progress. With the successful completion of each goal-oriented lesson, you will see progress in your Japanese ability. Also, you will achieve a deeper understanding of Japanese culture.
+					As a benchmark for passing each unit test, you will receive a FUJI SCHOOL certificate. These certificates and tests will help to remind you of how much you have accomplished towards your goal of learning a new language.
+					We are here to give you the most personalized language learning experience possible.</p>
+
+					<p>Please use the reception page to contact us with any questions about our school, curriculum, or teachers before enrolling at FUJI SCHOOL.
+					We would be happy to help you choose the courses and lessons that are right for you.
+					FUJI SCHOOL is run by a tight-nit group of professional educators who are passionate about teaching Japanese. 
+					Our goal is to provide you with the best mix of language education and cultural exchange.
+					We are here for you!</p>
+				</div>
+				<div id="tabs-2" style="background-color: white;">
+					<!--Gallery-->
+					<div style="width: 1701px;">
+						<div style="float: left; margin-left: 35px;" id="juicebox-container"></div>
+					</div>
+				</div>
+			</div>
+			<!--End school info-->
+
+		</div>
+		<!--End inner container-->
+	</div>
+	<!--End outer container-->
+
+	<!--START JUICEBOX EMBED-->
+	<script src="jbcore/juicebox.js"></script>
+	<script>
+	new juicebox({
+		containerId: 'juicebox-container',
+		galleryWidth: '60%',
+		galleryHeight: '85%',
+		backgroundColor: '#222222'
+	});
+	</script>
+	<!--END JUICEBOX EMBED-->
+	<script src="src/top_menu_bar.js"></script>
+</body>
+</html>

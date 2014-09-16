@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	showOpenButton="false"
+	showExpandButton="true"
+	useThumbDots="false"
+	useFullscreenExpand="false"
+	textColor="rgba(255,255,255,1)"
+
+>
+  <image imageURL="images/ayumi-eharu-teaching.jpg"
+	thumbURL="thumbs/ayumi-eharu-teaching.jpg"
+	linkURL="images/ayumi-eharu-teaching.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\ayumi-eharu-teaching.jpg">
+    <title><![CDATA[Ayumi Eharu sensei teaching!]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/ayumi-hiromi-intensive1.jpg"
+	thumbURL="thumbs/ayumi-hiromi-intensive1.jpg"
+	linkURL="images/ayumi-hiromi-intensive1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\ayumi-hiromi-intensive1.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/ayumi-intensive1.jpg"
+	thumbURL="thumbs/ayumi-intensive1.jpg"
+	linkURL="images/ayumi-intensive1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\ayumi-intensive1.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/ayumi-teaching3.jpg"
+	thumbURL="thumbs/ayumi-teaching3.jpg"
+	linkURL="images/ayumi-teaching3.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\ayumi-teaching3.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/ayumi-teaching4.jpg"
+	thumbURL="thumbs/ayumi-teaching4.jpg"
+	linkURL="images/ayumi-teaching4.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\ayumi-teaching4.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/ayumi-teaching5.jpg"
+	thumbURL="thumbs/ayumi-teaching5.jpg"
+	linkURL="images/ayumi-teaching5.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\ayumi-teaching5.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/ayumi-teaching6.jpg"
+	thumbURL="thumbs/ayumi-teaching6.jpg"
+	linkURL="images/ayumi-teaching6.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\ayumi-teaching6.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/eharu-teaching2.jpg"
+	thumbURL="thumbs/eharu-teaching2.jpg"
+	linkURL="images/eharu-teaching2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\eharu-teaching2.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/noriko-hiromi-intensive1.jpg"
+	thumbURL="thumbs/noriko-hiromi-intensive1.jpg"
+	linkURL="images/noriko-hiromi-intensive1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\noriko-hiromi-intensive1.jpg">
+    <title><![CDATA[Noriko Hiromi sensei teaching!]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/noriko-teaching1.jpg"
+	thumbURL="thumbs/noriko-teaching1.jpg"
+	linkURL="images/noriko-teaching1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\noriko-teaching1.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/noriko-teaching2.jpg"
+	thumbURL="thumbs/noriko-teaching2.jpg"
+	linkURL="images/noriko-teaching2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\noriko-teaching2.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/noriko-teaching3.jpg"
+	thumbURL="thumbs/noriko-teaching3.jpg"
+	linkURL="images/noriko-teaching3.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\noriko-teaching3.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/noriko-teaching4.jpg"
+	thumbURL="thumbs/noriko-teaching4.jpg"
+	linkURL="images/noriko-teaching4.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\David\Desktop\web_dev\fuji_redone\assets\gallery_photos\noriko-teaching4.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>

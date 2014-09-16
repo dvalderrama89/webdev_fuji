@@ -1,0 +1,50 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:be4d3f44d1426f79f8141d19c1dde933:431426398001b3ab91d4be894025c712:826575d979030529663dc9ed79da5153$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(sprites/bg_buttons.png);}
+
+.bg {width:1200px; height:400px; background-position: -2px -2px; top:50%; left:50%; margin-top: -200px; margin-left: -650px; position:absolute; z-index: -1;}
+.btn_en {width:75px; height:30px; background-position: -762px -729px}
+.btn_inquiry {width:156px; height:30px; background-position: -604px -729px}
+.btn_jp {width:75px; height:30px; background-position: -1083px -554px}
+.center_navi_01 {width:142px; height:48px; background-position: -292px -772px}
+.center_navi_01_roll {width:142px; height:48px; background-position: -436px -772px}
+.center_navi_02 {width:141px; height:48px; background-position: -983px -691px}
+.center_navi_02_roll {width:141px; height:48px; background-position: -983px -741px}
+.center_navi_03 {width:142px; height:48px; background-position: -580px -772px}
+.center_navi_03_roll {width:142px; height:48px; background-position: -1025px -404px}
+.center_navi_04 {width:142px; height:48px; background-position: -1025px -454px}
+.center_navi_04_roll {width:142px; height:48px; background-position: -1025px -504px}
+.center_navi_05 {width:142px; height:48px; background-position: -839px -704px}
+.center_navi_05_roll {width:142px; height:48px; background-position: -839px -754px}
+.center_navi_06 {width:143px; height:48px; background-position: -2px -772px}
+.center_navi_06_roll {width:143px; height:48px; background-position: -147px -772px}
+.cut_01 {width:167px; height:223px; background-position: -856px -404px}
+.fb-icon {width:55px; height:55px; background-position: -724px -761px}
+.footer_bg {width:600px; height:134px; background-position: -2px -636px}
+.footer_logo {width:153px; height:66px; background-position: -817px -636px}
+.header_photo {width:852px; height:230px; background-position: -2px -404px}
+.logo {width:211px; height:91px; background-position: -604px -636px; display:inline;}
+.side_title_01 {width:221px; height:29px; background-position: -972px -629px}
+.side_title_02 {width:221px; height:29px; background-position: -972px -660px}
+.twitter-icon {width:56px; height:54px; background-position: -781px -761px}
+.yelp-icon {width:56px; height:54px; background-position: -1025px -554px}
+a{
+	text-decoration: none;
+}
+p{
+	text-align: left;
+	font-size: 1.1em;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}

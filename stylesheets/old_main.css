@@ -1,0 +1,82 @@
+img.sprite-bg{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 0px;
+	width: 1200px; 
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+	z-index: -1;
+}
+img.sprite-btn_en{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -450px;
+	width: 75px; 
+	height: 30px; 
+} 
+img.sprite-btn_inquiry{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -530px; 
+	width: 156px; 
+	height: 30px; } 
+img.sprite-btn_jp{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -610px; 
+	width: 75px; 
+	height: 30px; 
+} 
+img.sprite-cut_01{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -690px; 
+	width: 167px; 
+	height: 223px; 
+} 
+img.sprite-fb-icon{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -963px; 
+	width: 55px; 
+	height: 55px; 
+} 
+img.sprite-footer_bg{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -1068px; 
+	width: 600px; 
+	height: 134px; 
+} 
+img.sprite-footer_logo{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -1252px; 
+	width: 153px; 
+	height: 66px; 
+} 
+img.sprite-header_photo{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -1368px; 
+	width: 852px; 
+	height: 230px; 
+} 
+img.sprite-logo{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -1648px;
+	width: 211px; 
+	height: 91px;
+	display: inline;
+} 
+img.sprite-twitter-icon{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -1789px; 
+	width: 56px; 
+	height: 54px;
+	display: relative; 
+} 
+img.sprite-yelp-icon{ 
+	background: url(sprites/bg_buttons.png) no-repeat top left;
+	background-position: 0 -1893px; 
+	width: 56px; 
+	height: 54px; 
+	display: relative;
+}
+a{
+	text-decoration: none;
+} 
