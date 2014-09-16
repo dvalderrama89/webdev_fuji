@@ -1,6 +1,11 @@
 #webdev_fuji
 The goal of this redesign was to implement several performance enhancing techniques that would improve DOMContentLoaded and load times.
 
+#Techniques implemented
+* Reduce the number of HTTP GET requests to the server through usage of CSS sprite sheets
+* Reorganize code to minimize synchronous blocks on HTML <script> tags in order to improve render time
+* Compress .png assets while maintaining image properties(namely the alpha property), using TinyPNG
+
 #Results
 First I want to address that a few additional performance improvements were not used to maintain code readability - minification and obfuscation. Additionally, the tests were performed on Chrome using the Chrome Developer Tools with the cache disabled. The results are an average of a set of 10 page refreshes both on the original site and my own. Note that although some assets were removed from the original in constructing the redesign, I believe that the impact on the final numbers is not particularly significant.
 
