@@ -3,7 +3,7 @@ The goal of this redesign was to implement several performance enhancing techniq
 
 #Techniques implemented
 * Reduce the number of HTTP GET requests to the server through usage of CSS sprite sheets
-* Reorganize code to minimize synchronous blocks on HTML <script> tags in order to improve render time
+* Reorganize code to minimize synchronous blocks on HTML \<script\> tags in order to improve render time
 * Compress .png assets while maintaining image properties(namely the alpha property), using TinyPNG
 
 #Results
